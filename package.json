@@ -29,9 +29,10 @@
 	},
 	"license": "BSD-2-Clause",
 	"dependencies": {
-		"underscore": "1.8.3",
+		"mysql": "2.11.1",
 		"optimist": "0.6.1",
-		"mysql": "2.11.1"
+		"pg": "^7.0.2",
+		"underscore": "1.8.3"
 	},
 	"bin": {
 		"execsql": "./bin/execsql"

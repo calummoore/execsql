@@ -1,6 +1,6 @@
 var fs = require('fs'),
 	_ = require('underscore'),
-	mysql = require('mysql'),
+	pg = require('pg'),
 	config = {
 		multipleStatements: true
 	},
